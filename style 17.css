@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: 0%;
+}
+body{
+    background-image: linear-gradient(to right,slateblue,rgb(131, 30, 47) );
+    
+    
+    font-family: 'Sacramento', cursive;
+    background-size: cover;
+    transition-duration: 1s;
+}
+body:hover{
+    background-image: linear-gradient(teal,rgb(1, 255, 128));
+    
+}
+nav{
+    background-color: rgba(3, 3, 77, 0.39);
+    padding: 1rem;
+    box-shadow: 3px 3px 5px rgb(255, 250, 250);
+    font-family: 'Courier New', Courier, monospace;
+}
+nav div{
+    
+    color: white;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+section{
+    width: 50rem;
+    height: 50rem;
+}
+
+.ul0{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 241, 241);
+    list-style: none;
+    display: flex;
+    font-size: medium;
+    gap: 10px;
+    
+    
+   
+}
+.d0{padding: 8px;
+    
+    background-color:rgba(3, 3, 77, 0.39) ;
+    box-shadow: 3px 3px 5px rgb(255, 250, 250);
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.logo{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 8%;
+    right: 80%;
+}
+.h01{
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 21%;
+    font-size: 50px;
+}
+.p0{
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    font-size: 30px;
+}
+.d1{
+    
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+table{
+    border-bottom: none ;
+    border: gainsboro;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 40px 40px 45px rgb(0, 0, 0);
+    
+    
+}
+table th {
+    padding: 2%;
+    color:rgb(3, 3, 61) ;
+}
+table td{
+    padding: 1%;
+}
+table button{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 10%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#button1{
+    background-color: rgba(172, 115, 9, 0.671);
+    border-radius: 10%;
+    
+}
+#button2{
+    background-color: rgb(255, 123, 0);
+    border-radius: 10%;
+    
+}
+#button3{
+    background-color: red;
+    border-radius: 10%;
+    
+}
+#button4{
+    background-color: blueviolet;
+    border-radius: 10%;
+    
+}
+span{
+    font-size: 20px;
+    font-family: fantasy;
+}
